@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: hsl(212, 45%, 89%);
+  font-size: 15px;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 360px;
+}
+.container .card {
+  background-color: hsl(0, 0%, 100%);
+  padding: 20px;
+  border-radius: 18px;
+  text-align: center;
+  margin: 0 1em;
+}
+.container .card img {
+  width: 100%;
+  border-radius: 18px;
+}
+.container .card .text {
+  padding: 22px 10px;
+}
+.container .card .text h2 {
+  color: hsl(218, 44%, 22%);
+  padding-bottom: 15px;
+}
+.container .card .text p {
+  color: hsl(216, 15%, 48%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}/*# sourceMappingURL=style.css.map */
